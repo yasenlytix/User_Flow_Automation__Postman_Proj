@@ -23,7 +23,41 @@ The following essentials are mandatory.
 ## ***❸ I will run all these steps as one automated flow using ---> Postman Collection Runner***
 
 <br>
+
+---
+
+<br>
+<br>
 <br>
 
+
+## **🤓 Deliverables**
+
+<br>
+
+➥ Postman Collection with at least 5 requests.
+
+➥ Automated creation & utilization of **Environment variables** for **base URL** & **dynamic variables**.
+
+➥ Automated run report (via Postman Collection Runner).
+
+<br>
+<br>
+
+
+## **🤓 End Result**
+
+<br>
+
+➥ A **complete API workflow** in one go.
+
+➥ Variables will be **dynamically passed**, and **request chaining** will be **automated**.
+
+<br>
+
+---
+
+<br>
+<br>
 
 
