@@ -61,6 +61,19 @@ The following essentials are mandatory.
 <br>
 <br>
 
+### Here is a complete requests cycle that I used to create this amazing Automation based API workflow!
+
+You can verify the following code by copying and pasting my steps, code & scripts.
+
+I have used `Javascript code` for:-
+
+- environment variable creation
+- test validation
+- CRUD operations
+
+<br>
+<br>
+
 
 ## ***❶ Login (extract token)***
 
@@ -77,7 +90,11 @@ I created a new environment inside Postman.
 ## **Step 2**
 
 
-I wrote JavaScript under `pre-request Script` to add an environment variable dynamically
+I wrote JavaScript under `pre-request Script` to add an environment variable dynamically.
+
+<br>
+
+#### Under Pre-request Script:-
 
 ```js
 pm.environment.set("baseUrl", "https://reqres.in");
@@ -90,9 +107,13 @@ pm.environment.set("baseUrl", "https://reqres.in");
 
 ## **Step 3**
 
-**I created `POST` request:-**
+*I created `POST` request.*
 
-> {{baseUrl}}/api/login
+<br>
+
+#### Request URL:-
+
+> `POST` {{baseUrl}}/api/login
 
 <br>
 
@@ -328,8 +349,9 @@ pm.environment.unset("baseUrl")
 
 
 #### Note:-
-> At the end, all the environment variables will be deleted!
+> At the end, all the environment variables will be deleted automatically!
 
+<br>
 
 ---
 
