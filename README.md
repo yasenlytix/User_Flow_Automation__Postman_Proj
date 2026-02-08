@@ -65,15 +65,24 @@ The following essentials are mandatory.
 
 You can verify the following code by copying and pasting my steps, code & scripts.
 
+
 I have used `Javascript code` for:-
 
 - environment variable creation
 - test validation
 - CRUD operations
 
-<br>
-<br>
 
+#### *Prerequisites:*
+
+- All of this starts with a new Collection. Create a new Collection!
+
+- Generate an API key from ---> `https://reqres.in`
+
+
+<br>
+<br>
+<br>
 
 ## ***❶ Login (extract token)***
 
@@ -147,6 +156,11 @@ pm.test("Token in environment matches response token", () => {
     pm.expect(jsonData.token).to.eql(pm.environment.get("token"));
 });
 ```
+
+<br>
+
+**Hence:-**
+> token ---> value_of_your_generated_token
 
 <br>
 
